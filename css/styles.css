@@ -1,0 +1,151 @@
+body{
+    color: #40514E;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+h1{
+    color: #66BFBF;
+    font-size: 6rem;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-family: 'Sacramento', cursive;
+}
+
+h2{
+    color: #66BFBF;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    color: #11999E;
+}
+
+hr{
+    border-style: dotted none none none;
+    border-width: 10px;
+    color:rgb(190, 190, 190);
+    width: 6%;
+    margin: 100px auto;
+}
+
+.my-info{
+    line-height: 1.3;
+}
+
+.program{
+    font-weight: normal;
+    margin-top: 0px;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.top-container{
+    background-color: #e6fffc;
+    position: relative;
+    padding-top: 100px;
+}
+
+.mid-container{
+    margin: 100px auto;
+}
+
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 50px 0px 20px 0px;
+}
+
+.profile{
+    width: 50%;
+    margin: auto;
+    line-height: 1.6;
+}
+
+.contact-me{
+    line-height: 2;
+}
+
+.bottom-cloud{
+    position: absolute;
+    bottom:300px;
+    left:300px;
+}
+
+.top-cloud{
+    position: absolute;
+    top:50px;
+    right:300px;
+}
+
+.skill-row{
+    width: 50%;
+    /* display: inline-block; */
+    margin: 100px auto 170px auto;
+    text-align: left;
+    line-height: 1.6;
+}
+
+.my-image{
+    width:25%
+}
+
+.coding-image{
+    width: 20%;
+    float: left;
+    padding-right: 30px;
+}
+.sleeping-image{
+    width: 20%;
+    float: right;
+    padding-left: 25px;
+}
+
+.bottom-container a{                       /* or .footer-link */
+    padding: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.bottom-container a:hover{
+    color:#EAF6F6;
+}
+
+.copyright{
+    color: #EAF6F6;
+    font-size: 0.9rem;
+    padding-top: 20px;
+}
+
+.btn{
+    background-color: #4bc2c2;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+    display: inline-block;
+    width:10%;
+    font-size:18px;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    /* border: 2px solid #38adad; */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #4bc2c2ad;
+    color: white;
+}
+
+.contact-me p{
+    padding-bottom: 50px;
+}
